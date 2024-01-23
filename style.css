@@ -278,7 +278,7 @@ p {
   position: fixed;
   bottom: -200px;
   opacity: 0.6;
-  z-index: 99;
+  z-index: -99999;
   width: 100px;
   height: 183px;
   background-repeat: no-repeat no-repeat;
@@ -292,53 +292,43 @@ p {
   z-index: 9999;
 }
 
-#b1,
-#b11 {
+#b1 {
   background-image: url("images/b1.png");
 }
 
-#b2,
-#b22 {
+#b2 {
   background-image: url("images/b2.png");
 }
 
-#b3,
-#b33 {
+#b3 {
   background-image: url("images/b3.png");
 }
 
-#b4,
-#b44 {
+#b4 {
   background-image: url("images/b4.png");
 }
 
-#b5,
-#b55 {
+#b5 {
   background-image: url("images/b5.png");
 }
 
-#b6,
-#b66 {
+#b6 {
   background-image: url("images/b6.png");
 }
 
-#b7,
-#b77 {
+#b7 {
   background-image: url("images/b7.png");
 }
 
-#b8,
-#b88 {
+#b8 {
   background-image: url("images/b8.png");
 }
 
-#b9,
-#b99 {
+#b9 {
   background-image: url("images/b9.png");
 }
 
-#b10,
-#b1010 {
+#b10 {
   background-image: url("images/b10.png");
 }
 
