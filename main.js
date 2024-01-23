@@ -70,6 +70,7 @@ $('.birthdayCard').on('click touchstart', function (e) {
     setTimeout(() => {
         $(this).toggleClass('hide');
     }, 100);
+    $('.heart').toggleClass('beat');
 });
 
 function balloons() {
