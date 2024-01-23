@@ -521,7 +521,7 @@ p {
   position: relative;
   left: 200px;
   bottom: 130px;
-  transform: rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
 }
 
 .heart:after {
@@ -546,17 +546,15 @@ p {
   left: 0px;
 }
 
-.heart:hover {
+.heart.beat {
   background-color: #990000;
   animation-name: beat;
-  animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-duration: 200ms;
-  transform: scale(1.3) rotate(-45deg);
+  animation-duration: 700ms;
 }
 
-.heart:hover:before,
-.heart:hover:after {
+.heart.beat::before,
+.heart.beat::after{
   background-color: #990000;
 }
 
